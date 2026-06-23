@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>1</h1>
+        <table border="black">
+            <caption>Student Information</caption>
+            <thead>
+                <tr>
+                    <th rowspan="6">Info</th>
+                    <th rowspan="2">Name</th>
+                
+                <th colspan="2">Adress</th>
+                </tr>
+                <tr>
+                    <th>City</th>
+                    <th>House</th>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td>Delhi</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <td>Mumbai</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td>Kolkata</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>D</td>
+                    <td>Pune</td>
+                    <td>4</td>
+                </tr>
+
+            </thead>
+        </table>
+        <br>
+        <hr>
+        <h1>2</h1>
+        <form action="/action">
+            <div>
+            <label for="username" >Name:</label>
+            <input type="text" id="username" name="uname">
+        </div>
+        <div>
+            Sex:
+            
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="sex" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="sex" value="female">
+        </div>
+        <div>
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="India">India</option>
+            <option value="Nepal">Nepal</option>
+            <option value="Bhutan">Bhutan</option>
+            <option value="Pakistan">Pakistan</option>
+        </select>
+    </div>
+    <div>
+    <label for="text">Message:</label>
+    <br>
+    <textarea id="text" name="text"></textarea>
+</div>
+<div>
+    <label for="sub">Subscribe?</label>
+    <input type="checkbox" id="sub" name="sub">
+</div>
+<button>Submit</button>
+        </form>
+        <br>
+        <hr>
+        <h1>3</h1>
+        <h3>Feedback form</h3>
+        <form action="/action">
+            <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="write your name">
+        <BR>
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" placeholder="write your email">
+        <BR>
+        <label for="text">Message:</label>
+        <textarea id="text"></textarea>
+        <BR>
+            Rate us out of 5:
+            
+            <label for="1">1</label>
+            <input type="radio" id="1" name="rate" value ="1">
+            <label for="2">2</label>
+            <input type="radio" id="2" name="rate" value ="2">
+            <label for="3">3</label>
+            <label for="4">4</label>
+            <input type="radio" id="4" name="rate" value ="4">
+            <label for="5">5</label>
+            <input type="radio" id="5" name="rate" value ="5">
+            <br>
+            <button type="button">
+                Send your message
+            </button>
+        
+        </form>
+    </main>
+</body>
+</html>
